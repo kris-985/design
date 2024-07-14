@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="bg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" sizes="10x10" href="./images/logo.png">
+    <title>RTSafety</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-logo">
+          <img src="./images/logo.png" alt="Logo" />
+      </div>
+      <div class="navbar-links">
+          <a href="#">Начало</a>
+          <a href="#">За нас</a>
+          <a href="#">Услуги</a>
+          <a href="#">Новини</a>
+          <a href="#">Контакти</a>
+      </div>
+      <div class="navbar-flags">
+          <a href="#"><img src="./images/flag-bg.png" alt="BG" /></a>
+          <a href="#"><img src="./images/flag-uk.png" alt="UK" /></a>
+      </div>
+      <button class="hamburger-menu" onclick="toggleMenu()">☰</button>
+      <div class="mobile-menu" id="mobileMenu">
+          <a href="#">Начало</a>
+          <a href="#">За нас</a>
+          <a href="#">Услуги</a>
+          <a href="#">Новини</a>
+          <a href="#">Контакти</a>
+          <div class="mobile-flags">
+              <a href="#"><img src="./images/flag-bg.png" alt="BG" /></a>
+              <a href="#"><img src="./images/flag-uk.png" alt="UK" /></a>
+          </div>
+      </div>
+  </nav>
+  <script src="script.js"></script>
+  <div id="container">
+    <div class="image-container">
+      <img src="./images/info.jpg" alt="Info" />
+      <div class="overlay">
+        <h1>ПРЕВЕНЦИЯТА СПАСЯВА ЖИВОТ</h1>
+        <a href="#" class="info-button">ПОДРОБНА ИНФОРМАЦИЯ</a>
+        <div class="empty-div"></div>
+        <a class="mouse" href="#"><img class="mouse-img" src="./images/mouse.png" alt="Mouse" /><img class="mouse-down" src="./images/down.png" alt="Down" /></a>
+      </div>
+    </div>
+    <span class="decoration"></span>
+    <span class="title">Нашите услуги</span>
+    <p class="sub-title">
+      най-високо качество на услуги в сферата на безопастност на труда
+    </p>
+    <div class="services">
+      <div class="service-item">
+        <a href="#"><img src="./images/obuchenie.png" alt="Obuchenie" /></a>
+        <span class="text">ОБУЧЕНИЕ НА ПЕРСОНАЛА</span>
+        <span class="sub-text"
+          >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+          sagittis rutrum ipsum, quis luctus nisi egestas id.</span
+        >
+      </div>
+      <div class="service-item">
+        <a href="#"><img src="./images/zakonovi normi.png" alt="Zakonovi normi" /></a>
+        <span class="text">СПАЗВАНЕ НА ЗАКОНОВИ НОРМИ</span>
+        <span class="sub-text"
+          >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+          sagittis rutrum ipsum, quis luctus nisi egestas id.</span
+        >
+      </div>
+      <div class="service-item">
+        <a href="#"><img src="./images/podobrenie.png" alt="Podobrenie" /></a>
+        <span class="text">ПОДДРЪЖКА И ПОДОБРЕНИЕ</span>
+        <span class="sub-text"
+          >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+          sagittis rutrum ipsum, quis luctus nisi egestas id.</span
+        >
+      </div>
+    </div>
+    <span class="title">Нашите проекти</span>
+    <p class="sub-title">
+      Работим и сме работили по проекти с най-големите фирми в България
+    </p>
+    <div class="gallery">
+        <div class="image-item">
+            <img src="./images/siemens.jpg" alt="">
+        </div>
+        <div class="image-item">
+            <img src="./images/lukoil.jpg" alt="">
+        </div>
+        <div class="image-item">
+            <img src="./images/zavod.jpg" alt="">
+            <div class="hover">
+                <h2>АУРУБИС България</h2>
+                <p>Медодобивният завод на Аурубис Групата в България се намира в региона на Средногорието.Той е построен през 1958г. и се състои от четири основни производствени единици:металургично производство</p>
+            </div>
+        </div>
+        <div class="image-item">
+            <img src="./images/zavod.jpg" alt="">
+        </div>
+        <div class="image-item">
+            <img src="./images/lukoil.jpg" alt="">
+        </div>
+        <div class="image-item">
+            <img src="./images/siemens.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <span class="decoration"></span>
+    <div class="map-image">
+      <img src="./images/map.png" alt="Map">
+  </div>
+  <footer>
+    <div class="footer-container">
+        <div class="left">
+            <div class="logo">
+                <a class="logoFooter" href=""><img src="./images/logo-footer.png" alt="Logo"></a>
+            </div>
+            <div class="footerMenu">
+                <ul class="footer-menu-box">
+                    <li><a href="#">За нас</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Условия</a></li>
+                    <li><a href="#">Контакти</a></li>  
+                </ul>
+                <div class="term">
+                    © RTFSafety.bg 2019. Всички права запазени.
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="img-box">
+                <img src="./images/kak-logo.png" alt="KAK">
+            </div>
+            <div class="kak">
+                Уеб дизайн, уеб програмиране и оптимизация за търсачки.
+            </div>
+        </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
